@@ -25,7 +25,7 @@ async function main(){
     {
         type: 'list',
         name: 'shapeColor',
-        message: 'Select the color for the text',
+        message: 'Select the color for the Shape',
         choices: ['red','green','blue','yellow','white','black'],
     },
    ]);
