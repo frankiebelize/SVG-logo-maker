@@ -23,7 +23,7 @@ class LogoGenerator {
         </svg>`;
       } else if (this.shape === 'triangle') {
         svgContent = `<svg width="100" height="100">
-          <polygon points="50%,0 0,100% 100%,100%" fill="${this.shapeColor}" />
+        <polygon points="50,0 0,100 100,100" fill="${this.shapeColor}" />
           <text x="50%" y="50%" text-anchor="middle" dy="0.3em" fill="${this.textColor}" font-size="16">${this.text}</text>
         </svg>`;
       }
